@@ -43,6 +43,7 @@ build-cross: package-front package-defaultconfig ## build all executables
 	@./scripts/build.sh linux/ARMv5
 	@./scripts/build.sh windows
 	@./scripts/build.sh macos
+	@./scripts/build.sh openbsd/amd64
 
 .PHONY: build-linux-amd64
 build-linux-amd64: package-front package-defaultconfig ## build executable for Linux

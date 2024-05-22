@@ -21,6 +21,9 @@ if [[ $# -eq 1 ]]; then
   elif [[ $1 == "windows" ]]; then
     export GOOS=windows
     export GOARCH=amd64
+  elif [[ $1 == "openbsd/amd64" ]]; then
+    export GOOS=openbsd
+    export GOARCH=amd64
   elif [[ $1 == "macos" ]]; then
     export GOOS=darwin
     export GOARCH=amd64

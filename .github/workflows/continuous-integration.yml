@@ -190,6 +190,15 @@ jobs:
           asset_name: monitoror-macos-${{ steps.init.outputs.VERSION }}
           asset_content_type: application/x-mach-binary
 
+      - uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.init.outputs.UPLOAD_URL }}
+          asset_path: binaries/monitoror-openbsd-amd64-${{ steps.init.outputs.VERSION }}
+          asset_name: monitoror-openbsd-amd64-${{ steps.init.outputs.VERSION }}
+          asset_content_type: application/x-executable
+
   release-dockerhub:
     name: Release DockerHub
     if: startsWith(github.ref, 'refs/tags/')
