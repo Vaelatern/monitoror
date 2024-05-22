@@ -5,5 +5,6 @@ set -e
 
 go clean testdata ./...
 rm -f coverage.txt
+go get gotest.tools/gotestsum
 gotestsum -- -coverprofile=coverage.txt -covermode=atomic $(go list ./... | grep -v mocks)
 go tool cover -func coverage.txt | grep -v "100.0%"
