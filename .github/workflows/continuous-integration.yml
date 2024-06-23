@@ -32,7 +32,7 @@ jobs:
 
       - name: install
         run: |
-          go get gotest.tools/gotestsum
+          go install gotest.tools/gotestsum@latest
           make install
 
       - name: tests
@@ -40,13 +40,6 @@ jobs:
           # https://github.com/actions/setup-go/issues/14
           export PATH=${PATH}:`go env GOPATH`/bin
           make test-coverage
-
-      - name: coverage
-        uses: codecov/codecov-action@v1.0.4
-        with:
-          token: ${{ secrets.codecov_token }}
-          yml: .github/.codecov.yml
-          flags: core
 
   ui-test:
     name: UI / Test
@@ -74,14 +67,6 @@ jobs:
       - name: tests
         working-directory: ui
         run: npm run test
-
-      - name: coverage
-        uses: codecov/codecov-action@v1.0.4
-        with:
-          token: ${{ secrets.codecov_token }}
-          yml: .github/.codecov.yml
-          file: ui/tests/coverage/*
-          flags: ui
 
   build:
     name: Build
@@ -113,7 +98,7 @@ jobs:
 
       - name: core / install
         run: |
-          go get github.com/GeertJohan/go.rice/rice
+          go install github.com/GeertJohan/go.rice/rice@latest
           make install
 
       - name: ui / build
