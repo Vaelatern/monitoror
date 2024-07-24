@@ -2,7 +2,7 @@
 
 package monitorable
 
-import coreModels "github.com/monitoror/monitoror/models"
+import coreModels "github.com/Vaelatern/monitoror/models"
 
 type DefaultMonitorableFaker struct {
 }

@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/store"
 
 	"github.com/spf13/cobra"
 )

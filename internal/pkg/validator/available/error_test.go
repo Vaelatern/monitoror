@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/monitoror/monitoror/internal/pkg/validator"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
 )
 
 func TestAvailableError(t *testing.T) {

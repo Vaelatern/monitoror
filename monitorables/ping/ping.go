@@ -3,18 +3,18 @@
 package ping
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgMonitorable "github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/ping/api"
-	pingDelivery "github.com/monitoror/monitoror/monitorables/ping/api/delivery/http"
-	pingModels "github.com/monitoror/monitoror/monitorables/ping/api/models"
-	pingRepository "github.com/monitoror/monitoror/monitorables/ping/api/repository"
-	pingUsecase "github.com/monitoror/monitoror/monitorables/ping/api/usecase"
-	pingConfig "github.com/monitoror/monitoror/monitorables/ping/config"
-	"github.com/monitoror/monitoror/pkg/system"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgMonitorable "github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api"
+	pingDelivery "github.com/Vaelatern/monitoror/monitorables/ping/api/delivery/http"
+	pingModels "github.com/Vaelatern/monitoror/monitorables/ping/api/models"
+	pingRepository "github.com/Vaelatern/monitoror/monitorables/ping/api/repository"
+	pingUsecase "github.com/Vaelatern/monitoror/monitorables/ping/api/usecase"
+	pingConfig "github.com/Vaelatern/monitoror/monitorables/ping/config"
+	"github.com/Vaelatern/monitoror/pkg/system"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

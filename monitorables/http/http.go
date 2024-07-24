@@ -3,17 +3,17 @@
 package http
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgMonitorable "github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/http/api"
-	httpDelivery "github.com/monitoror/monitoror/monitorables/http/api/delivery/http"
-	httpModels "github.com/monitoror/monitoror/monitorables/http/api/models"
-	httpRepository "github.com/monitoror/monitoror/monitorables/http/api/repository"
-	httpUsecase "github.com/monitoror/monitoror/monitorables/http/api/usecase"
-	httpConfig "github.com/monitoror/monitoror/monitorables/http/config"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgMonitorable "github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/http/api"
+	httpDelivery "github.com/Vaelatern/monitoror/monitorables/http/api/delivery/http"
+	httpModels "github.com/Vaelatern/monitoror/monitorables/http/api/models"
+	httpRepository "github.com/Vaelatern/monitoror/monitorables/http/api/repository"
+	httpUsecase "github.com/Vaelatern/monitoror/monitorables/http/api/usecase"
+	httpConfig "github.com/Vaelatern/monitoror/monitorables/http/config"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

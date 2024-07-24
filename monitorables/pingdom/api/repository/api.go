@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/pingdom/api"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api/models"
-	"github.com/monitoror/monitoror/monitorables/pingdom/config"
-	"github.com/monitoror/monitoror/pkg/gopingdom"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/config"
+	"github.com/Vaelatern/monitoror/pkg/gopingdom"
 
-	pingdomAPI "github.com/jsdidierlaurent/go-pingdom/pingdom"
+	pingdomAPI "github.com/russellcardullo/go-pingdom/pingdom"
 )
 
 type (

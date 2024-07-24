@@ -5,8 +5,8 @@ package models
 import (
 	"time"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/models"
 )
 
 type (

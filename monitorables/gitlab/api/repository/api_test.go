@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/config"
-	"github.com/monitoror/monitoror/pkg/gogitlab/mocks"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/config"
+	"github.com/Vaelatern/monitoror/pkg/gogitlab/mocks"
 
 	"github.com/AlekSi/pointer"
 	"github.com/stretchr/testify/assert"

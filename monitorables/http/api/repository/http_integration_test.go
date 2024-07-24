@@ -9,8 +9,8 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"github.com/monitoror/monitoror/monitorables/http/config"
-	"github.com/monitoror/monitoror/pkg/test"
+	"github.com/Vaelatern/monitoror/monitorables/http/config"
+	"github.com/Vaelatern/monitoror/pkg/test"
 
 	"github.com/stretchr/testify/assert"
 )

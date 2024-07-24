@@ -3,8 +3,8 @@
 package api
 
 import (
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/azuredevops/api/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops/api/models"
 )
 
 const (

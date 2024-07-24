@@ -4,8 +4,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
-	"github.com/monitoror/monitoror/internal/pkg/validator"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"

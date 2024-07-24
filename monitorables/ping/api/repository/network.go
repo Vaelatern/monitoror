@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/ping/api"
-	"github.com/monitoror/monitoror/monitorables/ping/api/models"
-	"github.com/monitoror/monitoror/monitorables/ping/config"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/ping/config"
 
-	goPing "github.com/sparrc/go-ping"
+	goPing "github.com/go-ping/ping"
 )
 
 type (

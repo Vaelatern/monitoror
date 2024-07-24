@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/models"
 	cmap "github.com/orcaman/concurrent-map"
 )
 

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/gitlab/api"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/config"
-	"github.com/monitoror/monitoror/pkg/gogitlab"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/config"
+	"github.com/Vaelatern/monitoror/pkg/gogitlab"
 
 	"github.com/AlekSi/pointer"
 	"github.com/xanzy/go-gitlab"

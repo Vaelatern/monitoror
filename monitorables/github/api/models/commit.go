@@ -1,6 +1,6 @@
 package models
 
-import "github.com/monitoror/monitoror/models"
+import "github.com/Vaelatern/monitoror/models"
 
 type (
 	Commit struct {

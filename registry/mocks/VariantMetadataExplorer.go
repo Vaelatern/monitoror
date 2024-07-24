@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	params "github.com/monitoror/monitoror/internal/pkg/monitorable/params"
+	params "github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/monitoror/monitoror/internal/pkg/env"
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/env"
+	"github.com/Vaelatern/monitoror/models"
 
 	"github.com/fatih/structs"
 	"github.com/spf13/viper"

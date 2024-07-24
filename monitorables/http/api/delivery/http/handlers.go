@@ -3,9 +3,9 @@ package http
 import (
 	netHttp "net/http"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/delivery"
-	"github.com/monitoror/monitoror/monitorables/http/api"
-	"github.com/monitoror/monitoror/monitorables/http/api/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/delivery"
+	"github.com/Vaelatern/monitoror/monitorables/http/api"
+	"github.com/Vaelatern/monitoror/monitorables/http/api/models"
 
 	"github.com/labstack/echo/v4"
 )

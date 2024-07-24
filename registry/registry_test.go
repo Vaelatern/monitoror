@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/models"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/models/mocks"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/models/mocks"
 )
 
 func TestRegistry_Tiles(t *testing.T) {

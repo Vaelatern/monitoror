@@ -3,19 +3,19 @@
 package pingdom
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgMonitorable "github.com/monitoror/monitoror/internal/pkg/monitorable"
-	"github.com/monitoror/monitoror/registry"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgMonitorable "github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	"github.com/Vaelatern/monitoror/registry"
 
-	coreModels "github.com/monitoror/monitoror/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
 
-	"github.com/monitoror/monitoror/monitorables/pingdom/api"
-	pingdomDelivery "github.com/monitoror/monitoror/monitorables/pingdom/api/delivery/http"
-	pingdomModels "github.com/monitoror/monitoror/monitorables/pingdom/api/models"
-	pingdomRepository "github.com/monitoror/monitoror/monitorables/pingdom/api/repository"
-	pingdomUsecase "github.com/monitoror/monitoror/monitorables/pingdom/api/usecase"
-	pingdomConfig "github.com/monitoror/monitoror/monitorables/pingdom/config"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api"
+	pingdomDelivery "github.com/Vaelatern/monitoror/monitorables/pingdom/api/delivery/http"
+	pingdomModels "github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
+	pingdomRepository "github.com/Vaelatern/monitoror/monitorables/pingdom/api/repository"
+	pingdomUsecase "github.com/Vaelatern/monitoror/monitorables/pingdom/api/usecase"
+	pingdomConfig "github.com/Vaelatern/monitoror/monitorables/pingdom/config"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

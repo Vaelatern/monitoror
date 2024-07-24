@@ -2,7 +2,7 @@
 
 package models
 
-import "github.com/monitoror/monitoror/internal/pkg/monitorable/params"
+import "github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
 
 type (
 	CountParams struct {

@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"strings"
 
-	coreConfig "github.com/monitoror/monitoror/config"
-	pkgConfig "github.com/monitoror/monitoror/internal/pkg/monitorable/config"
-	"github.com/monitoror/monitoror/internal/pkg/validator/validate"
-	"github.com/monitoror/monitoror/models"
-	coreModels "github.com/monitoror/monitoror/models"
+	coreConfig "github.com/Vaelatern/monitoror/config"
+	pkgConfig "github.com/Vaelatern/monitoror/internal/pkg/monitorable/config"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator/validate"
+	"github.com/Vaelatern/monitoror/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
 )
 
 // LoadConfig load config wrapper for monitorable

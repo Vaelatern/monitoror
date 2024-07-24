@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/test"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/test"
 
 	"github.com/stretchr/testify/assert"
 )

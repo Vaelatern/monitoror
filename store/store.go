@@ -3,9 +3,9 @@ package store
 import (
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 
-	coreConfig "github.com/monitoror/monitoror/config"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/service/router"
+	coreConfig "github.com/Vaelatern/monitoror/config"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/service/router"
 )
 
 type (

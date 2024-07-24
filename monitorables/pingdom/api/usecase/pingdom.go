@@ -10,10 +10,10 @@ import (
 
 	"github.com/AlekSi/pointer"
 
-	uiConfigModels "github.com/monitoror/monitoror/api/config/models"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api/models"
+	uiConfigModels "github.com/Vaelatern/monitoror/api/config/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 	uuid "github.com/satori/go.uuid"

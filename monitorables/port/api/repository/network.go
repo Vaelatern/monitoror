@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/port/api"
-	"github.com/monitoror/monitoror/monitorables/port/config"
-	pkgNet "github.com/monitoror/monitoror/pkg/net"
+	"github.com/Vaelatern/monitoror/monitorables/port/api"
+	"github.com/Vaelatern/monitoror/monitorables/port/config"
+	pkgNet "github.com/Vaelatern/monitoror/pkg/net"
 )
 
 type (

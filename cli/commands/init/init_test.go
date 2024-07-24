@@ -10,7 +10,7 @@ import (
 	"github.com/GeertJohan/go.rice/embedded"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/monitoror/monitoror/cli"
+	"github.com/Vaelatern/monitoror/cli"
 )
 
 func TestVersionCommand(t *testing.T) {

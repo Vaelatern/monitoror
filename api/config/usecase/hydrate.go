@@ -7,10 +7,10 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/monitoror/monitoror/api/config/models"
-	pkgConfig "github.com/monitoror/monitoror/internal/pkg/api/config"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/pkg/humanize"
+	"github.com/Vaelatern/monitoror/api/config/models"
+	pkgConfig "github.com/Vaelatern/monitoror/internal/pkg/api/config"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/pkg/humanize"
 )
 
 func (cu *configUsecase) Hydrate(configBag *models.ConfigBag) {

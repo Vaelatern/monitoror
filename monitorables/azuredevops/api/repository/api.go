@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/azuredevops/api"
-	"github.com/monitoror/monitoror/monitorables/azuredevops/api/models"
-	"github.com/monitoror/monitoror/monitorables/azuredevops/config"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops/api"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops/config"
 
 	"github.com/AlekSi/pointer"
-	azureDevOpsApi "github.com/jsdidierlaurent/azure-devops-go-api/azuredevops"
-	"github.com/jsdidierlaurent/azure-devops-go-api/azuredevops/build"
-	"github.com/jsdidierlaurent/azure-devops-go-api/azuredevops/release"
+	azureDevOpsApi "github.com/microsoft/azure-devops-go-api/azuredevops"
+	"github.com/microsoft/azure-devops-go-api/azuredevops/build"
+	"github.com/microsoft/azure-devops-go-api/azuredevops/release"
 )
 
 type (

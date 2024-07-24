@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/http/api"
-	"github.com/monitoror/monitoror/monitorables/http/api/models"
-	"github.com/monitoror/monitoror/pkg/humanize"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/http/api"
+	"github.com/Vaelatern/monitoror/monitorables/http/api/models"
+	"github.com/Vaelatern/monitoror/pkg/humanize"
 
 	xml2json "github.com/basgys/goxml2json"
 	"github.com/ghodss/yaml"

@@ -3,10 +3,10 @@ package service
 import (
 	"testing"
 
-	"github.com/monitoror/monitoror/cli/debug"
-	"github.com/monitoror/monitoror/config"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/cli/debug"
+	"github.com/Vaelatern/monitoror/config"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 
 	"github.com/GeertJohan/go.rice/embedded"
 	"github.com/stretchr/testify/assert"

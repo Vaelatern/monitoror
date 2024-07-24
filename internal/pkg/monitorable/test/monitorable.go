@@ -3,10 +3,10 @@ package test
 import (
 	"testing"
 
-	coreConfig "github.com/monitoror/monitoror/config"
-	registryMocks "github.com/monitoror/monitoror/registry/mocks"
-	serviceMock "github.com/monitoror/monitoror/service/mocks"
-	"github.com/monitoror/monitoror/store"
+	coreConfig "github.com/Vaelatern/monitoror/config"
+	registryMocks "github.com/Vaelatern/monitoror/registry/mocks"
+	serviceMock "github.com/Vaelatern/monitoror/service/mocks"
+	"github.com/Vaelatern/monitoror/store"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/mock"

@@ -1,12 +1,12 @@
 package service
 
 import (
-	configDelivery "github.com/monitoror/monitoror/api/config/delivery/http"
-	configRepository "github.com/monitoror/monitoror/api/config/repository"
-	configUsecase "github.com/monitoror/monitoror/api/config/usecase"
-	"github.com/monitoror/monitoror/api/info"
-	"github.com/monitoror/monitoror/monitorables"
-	"github.com/monitoror/monitoror/service/router"
+	configDelivery "github.com/Vaelatern/monitoror/api/config/delivery/http"
+	configRepository "github.com/Vaelatern/monitoror/api/config/repository"
+	configUsecase "github.com/Vaelatern/monitoror/api/config/usecase"
+	"github.com/Vaelatern/monitoror/api/info"
+	"github.com/Vaelatern/monitoror/monitorables"
+	"github.com/Vaelatern/monitoror/service/router"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 )

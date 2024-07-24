@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	models "github.com/monitoror/monitoror/monitorables/jenkins/api/models"
+	models "github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
 	mock "github.com/stretchr/testify/mock"
 )
 

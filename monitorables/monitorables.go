@@ -1,16 +1,16 @@
 package monitorables
 
 import (
-	"github.com/monitoror/monitoror/monitorables/azuredevops"
-	"github.com/monitoror/monitoror/monitorables/github"
-	"github.com/monitoror/monitoror/monitorables/gitlab"
-	"github.com/monitoror/monitoror/monitorables/http"
-	"github.com/monitoror/monitoror/monitorables/jenkins"
-	"github.com/monitoror/monitoror/monitorables/ping"
-	"github.com/monitoror/monitoror/monitorables/pingdom"
-	"github.com/monitoror/monitoror/monitorables/port"
-	"github.com/monitoror/monitoror/monitorables/travisci"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops"
+	"github.com/Vaelatern/monitoror/monitorables/github"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab"
+	"github.com/Vaelatern/monitoror/monitorables/http"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins"
+	"github.com/Vaelatern/monitoror/monitorables/ping"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom"
+	"github.com/Vaelatern/monitoror/monitorables/port"
+	"github.com/Vaelatern/monitoror/monitorables/travisci"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 func RegisterMonitorables(s *store.Store) {

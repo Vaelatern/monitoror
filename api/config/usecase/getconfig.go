@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/api/config/versions"
-	coreConfig "github.com/monitoror/monitoror/config"
-	"github.com/monitoror/monitoror/internal/pkg/api/config"
-	"github.com/monitoror/monitoror/internal/pkg/path"
-	"github.com/monitoror/monitoror/internal/pkg/validator/validate"
+	"github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	coreConfig "github.com/Vaelatern/monitoror/config"
+	"github.com/Vaelatern/monitoror/internal/pkg/api/config"
+	"github.com/Vaelatern/monitoror/internal/pkg/path"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator/validate"
 
 	"github.com/fatih/structs"
 )

@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/http/api"
-	"github.com/monitoror/monitoror/monitorables/http/api/models"
-	"github.com/monitoror/monitoror/monitorables/http/config"
+	"github.com/Vaelatern/monitoror/monitorables/http/api"
+	"github.com/Vaelatern/monitoror/monitorables/http/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/http/config"
 )
 
 type (

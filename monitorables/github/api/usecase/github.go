@@ -7,13 +7,13 @@ import (
 	"sort"
 	"time"
 
-	uiConfigModels "github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/cache"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/github/api"
-	"github.com/monitoror/monitoror/monitorables/github/api/models"
-	"github.com/monitoror/monitoror/pkg/git"
-	"github.com/monitoror/monitoror/pkg/hash"
+	uiConfigModels "github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/cache"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/github/api"
+	"github.com/Vaelatern/monitoror/monitorables/github/api/models"
+	"github.com/Vaelatern/monitoror/pkg/git"
+	"github.com/Vaelatern/monitoror/pkg/hash"
 
 	"github.com/AlekSi/pointer"
 )

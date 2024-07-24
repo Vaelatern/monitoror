@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/ping/api"
-	"github.com/monitoror/monitoror/monitorables/ping/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/ping/api/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api/models"
 
 	"github.com/stretchr/testify/assert"
 	. "github.com/stretchr/testify/mock"

@@ -5,9 +5,9 @@ package router
 import (
 	"fmt"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/service/middlewares"
-	"github.com/monitoror/monitoror/service/options"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/service/middlewares"
+	"github.com/Vaelatern/monitoror/service/options"
 
 	"github.com/labstack/echo/v4"
 )

@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/config"
-	pkgJenkins "github.com/monitoror/monitoror/pkg/gojenkins"
-	"github.com/monitoror/monitoror/pkg/gojenkins/mocks"
-	"github.com/monitoror/monitoror/pkg/gravatar"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/config"
+	pkgJenkins "github.com/Vaelatern/monitoror/pkg/gojenkins"
+	"github.com/Vaelatern/monitoror/pkg/gojenkins/mocks"
+	"github.com/Vaelatern/monitoror/pkg/gravatar"
 
 	gojenkins "github.com/jsdidierlaurent/golang-jenkins"
 	"github.com/stretchr/testify/assert"

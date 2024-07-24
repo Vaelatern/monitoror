@@ -3,15 +3,15 @@
 package jenkins
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api"
-	jenkinsDelivery "github.com/monitoror/monitoror/monitorables/jenkins/api/delivery/http"
-	jenkinsModels "github.com/monitoror/monitoror/monitorables/jenkins/api/models"
-	jenkinsUsecase "github.com/monitoror/monitoror/monitorables/jenkins/api/usecase"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api"
+	jenkinsDelivery "github.com/Vaelatern/monitoror/monitorables/jenkins/api/delivery/http"
+	jenkinsModels "github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
+	jenkinsUsecase "github.com/Vaelatern/monitoror/monitorables/jenkins/api/usecase"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

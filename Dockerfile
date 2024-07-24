@@ -1,7 +1,13 @@
 FROM alpine:latest AS builder
 ARG VERSION
-ADD /binaries/monitoror-linux-amd64-${VERSION} /bin/monitoror
-RUN chmod +x /bin/monitoror
+WORKDIR /building
+RUN apk add yarn
+COPY . .
+WORKDIR /building/ui
+RUN node install
+RUN yarn build
+WORKDIR /building
+RUN go build cmd/monitoror
 
 FROM alpine:latest
 RUN apk update && \

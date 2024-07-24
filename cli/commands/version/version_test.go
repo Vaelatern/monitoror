@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/monitoror/monitoror/cli"
-	"github.com/monitoror/monitoror/cli/version"
+	"github.com/Vaelatern/monitoror/cli"
+	"github.com/Vaelatern/monitoror/cli/version"
 )
 
 func TestVersionCommand(t *testing.T) {

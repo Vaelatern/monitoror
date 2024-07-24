@@ -3,15 +3,15 @@
 package azuredevops
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/azuredevops/api"
-	azuredevopsDelivery "github.com/monitoror/monitoror/monitorables/azuredevops/api/delivery/http"
-	azuredevopsModels "github.com/monitoror/monitoror/monitorables/azuredevops/api/models"
-	azuredevopsUsecase "github.com/monitoror/monitoror/monitorables/azuredevops/api/usecase"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops/api"
+	azuredevopsDelivery "github.com/Vaelatern/monitoror/monitorables/azuredevops/api/delivery/http"
+	azuredevopsModels "github.com/Vaelatern/monitoror/monitorables/azuredevops/api/models"
+	azuredevopsUsecase "github.com/Vaelatern/monitoror/monitorables/azuredevops/api/usecase"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

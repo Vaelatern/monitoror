@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/test"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/test"
 
 	"github.com/AlekSi/pointer"
 	"github.com/stretchr/testify/assert"

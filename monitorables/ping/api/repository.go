@@ -3,7 +3,7 @@
 package api
 
 import (
-	"github.com/monitoror/monitoror/monitorables/ping/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api/models"
 )
 
 type (

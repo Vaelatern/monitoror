@@ -3,7 +3,7 @@
 package config
 
 import (
-	"github.com/monitoror/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config/models"
 )
 
 type (

@@ -4,9 +4,9 @@ import (
 	"runtime"
 	"text/template"
 
-	"github.com/monitoror/monitoror/cli"
-	"github.com/monitoror/monitoror/cli/version"
-	"github.com/monitoror/monitoror/pkg/templates"
+	"github.com/Vaelatern/monitoror/cli"
+	"github.com/Vaelatern/monitoror/cli/version"
+	"github.com/Vaelatern/monitoror/pkg/templates"
 
 	"github.com/spf13/cobra"
 )

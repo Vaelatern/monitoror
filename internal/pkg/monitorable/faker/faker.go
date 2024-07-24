@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/models"
 )
 
 type Statuses []Status

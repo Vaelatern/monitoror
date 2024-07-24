@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	pkgValidator "github.com/monitoror/monitoror/internal/pkg/validator"
+	pkgValidator "github.com/Vaelatern/monitoror/internal/pkg/validator"
 )
 
 type (

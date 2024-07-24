@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/monitoror/monitoror/cli"
-	"github.com/monitoror/monitoror/cli/version"
-	"github.com/monitoror/monitoror/config"
-	"github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/models/mocks"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/cli"
+	"github.com/Vaelatern/monitoror/cli/version"
+	"github.com/Vaelatern/monitoror/config"
+	"github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/models/mocks"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 
 	"github.com/stretchr/testify/assert"
 )

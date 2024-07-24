@@ -3,7 +3,7 @@ package gravatar
 import (
 	"fmt"
 
-	"github.com/monitoror/monitoror/pkg/hash"
+	"github.com/Vaelatern/monitoror/pkg/hash"
 )
 
 const GravatarURL = "https://www.gravatar.com/avatar/%s?d=blank"

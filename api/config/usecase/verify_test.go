@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/internal/pkg/validator"
-	coreModels "github.com/monitoror/monitoror/models"
-	jenkinsApi "github.com/monitoror/monitoror/monitorables/jenkins/api"
-	jenkinsModels "github.com/monitoror/monitoror/monitorables/jenkins/api/models"
+	"github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	jenkinsApi "github.com/Vaelatern/monitoror/monitorables/jenkins/api"
+	jenkinsModels "github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
 
 	"github.com/stretchr/testify/assert"
 )

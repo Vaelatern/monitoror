@@ -3,12 +3,12 @@ package usecase
 import (
 	"time"
 
-	"github.com/monitoror/monitoror/api/config"
-	"github.com/monitoror/monitoror/api/config/models"
-	coreConfig "github.com/monitoror/monitoror/config"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config"
+	"github.com/Vaelatern/monitoror/api/config/models"
+	coreConfig "github.com/Vaelatern/monitoror/config"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 )

@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/travisci/api"
+	"github.com/Vaelatern/monitoror/monitorables/travisci/api"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/travisci/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/travisci/api/models"
-	"github.com/monitoror/monitoror/pkg/git"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/travisci/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/travisci/api/models"
+	"github.com/Vaelatern/monitoror/pkg/git"
 
 	. "github.com/AlekSi/pointer"
 	"github.com/stretchr/testify/assert"

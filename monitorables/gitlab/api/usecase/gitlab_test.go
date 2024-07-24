@@ -8,10 +8,10 @@ import (
 	"github.com/AlekSi/pointer"
 	"github.com/stretchr/testify/assert"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 	"github.com/stretchr/testify/mock"

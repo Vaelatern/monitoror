@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/models"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 	"github.com/labstack/echo/v4"

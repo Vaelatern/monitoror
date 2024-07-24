@@ -3,8 +3,8 @@ package info
 import (
 	"net/http"
 
-	"github.com/monitoror/monitoror/cli/version"
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/cli/version"
+	"github.com/Vaelatern/monitoror/models"
 
 	"github.com/labstack/echo/v4"
 )

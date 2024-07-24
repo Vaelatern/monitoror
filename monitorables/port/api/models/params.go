@@ -3,7 +3,7 @@
 package models
 
 import (
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
 )
 
 type (

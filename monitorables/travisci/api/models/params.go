@@ -5,7 +5,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
 )
 
 type (

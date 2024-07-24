@@ -7,12 +7,12 @@ import (
 	"regexp"
 	"time"
 
-	uiConfigModels "github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/cache"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/models"
-	"github.com/monitoror/monitoror/pkg/git"
+	uiConfigModels "github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/cache"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
+	"github.com/Vaelatern/monitoror/pkg/git"
 
 	"github.com/AlekSi/pointer"
 )

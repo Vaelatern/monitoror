@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/test"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/test"
 )
 
 func TestChecksParams_Validate(t *testing.T) {

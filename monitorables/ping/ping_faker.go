@@ -3,15 +3,15 @@
 package ping
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/ping/api"
-	pingDelivery "github.com/monitoror/monitoror/monitorables/ping/api/delivery/http"
-	pingModels "github.com/monitoror/monitoror/monitorables/ping/api/models"
-	pingUsecase "github.com/monitoror/monitoror/monitorables/ping/api/usecase"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/ping/api"
+	pingDelivery "github.com/Vaelatern/monitoror/monitorables/ping/api/delivery/http"
+	pingModels "github.com/Vaelatern/monitoror/monitorables/ping/api/models"
+	pingUsecase "github.com/Vaelatern/monitoror/monitorables/ping/api/usecase"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"github.com/monitoror/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/api/config/versions"
 
 	"github.com/stretchr/testify/assert"
 )

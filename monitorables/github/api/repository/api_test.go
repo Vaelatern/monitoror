@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/github/config"
-	"github.com/monitoror/monitoror/pkg/gogithub/mocks"
-	"github.com/monitoror/monitoror/pkg/gravatar"
+	"github.com/Vaelatern/monitoror/monitorables/github/config"
+	"github.com/Vaelatern/monitoror/pkg/gogithub/mocks"
+	"github.com/Vaelatern/monitoror/pkg/gravatar"
 
 	. "github.com/AlekSi/pointer"
 	"github.com/google/go-github/github"

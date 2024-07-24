@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	monitorormodels "github.com/monitoror/monitoror/models"
-	models "github.com/monitoror/monitoror/monitorables/azuredevops/api/models"
+	monitorormodels "github.com/Vaelatern/monitoror/models"
+	models "github.com/Vaelatern/monitoror/monitorables/azuredevops/api/models"
 	mock "github.com/stretchr/testify/mock"
 )
 

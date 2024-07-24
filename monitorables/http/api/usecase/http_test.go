@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/http/api"
-	"github.com/monitoror/monitoror/monitorables/http/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/http/api/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/http/api"
+	"github.com/Vaelatern/monitoror/monitorables/http/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/http/api/models"
 
 	"github.com/AlekSi/pointer"
 	"github.com/jsdidierlaurent/echo-middleware/cache"

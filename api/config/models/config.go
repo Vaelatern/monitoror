@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	coreModels "github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	coreModels "github.com/Vaelatern/monitoror/models"
 )
 
 type (

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/port/api"
-	"github.com/monitoror/monitoror/monitorables/port/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/port/api/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/port/api"
+	"github.com/Vaelatern/monitoror/monitorables/port/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/port/api/models"
 
 	"github.com/stretchr/testify/assert"
 	. "github.com/stretchr/testify/mock"

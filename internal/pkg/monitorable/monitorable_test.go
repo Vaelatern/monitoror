@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	pingConfig "github.com/monitoror/monitoror/monitorables/ping/config"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	pingConfig "github.com/Vaelatern/monitoror/monitorables/ping/config"
 
 	"github.com/stretchr/testify/assert"
 )

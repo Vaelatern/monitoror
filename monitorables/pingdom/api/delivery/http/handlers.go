@@ -3,9 +3,9 @@ package http
 import (
 	"net/http"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/delivery"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/delivery"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
 
 	"github.com/labstack/echo/v4"
 )

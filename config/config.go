@@ -8,7 +8,7 @@ import (
 	"github.com/fatih/structs"
 	"github.com/spf13/viper"
 
-	"github.com/monitoror/monitoror/internal/pkg/env"
+	"github.com/Vaelatern/monitoror/internal/pkg/env"
 )
 
 const (

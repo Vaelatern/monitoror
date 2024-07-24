@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/monitoror/monitoror/cli"
-	"github.com/monitoror/monitoror/internal/pkg/path"
+	"github.com/Vaelatern/monitoror/cli"
+	"github.com/Vaelatern/monitoror/internal/pkg/path"
 
 	rice "github.com/GeertJohan/go.rice"
 	"github.com/spf13/cobra"

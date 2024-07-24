@@ -3,17 +3,17 @@
 package gitlab
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgMonitorable "github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api"
-	gitlabDelivery "github.com/monitoror/monitoror/monitorables/gitlab/api/delivery/http"
-	gitlabModels "github.com/monitoror/monitoror/monitorables/gitlab/api/models"
-	gitlabRepository "github.com/monitoror/monitoror/monitorables/gitlab/api/repository"
-	gitlabUsecase "github.com/monitoror/monitoror/monitorables/gitlab/api/usecase"
-	gitlabConfig "github.com/monitoror/monitoror/monitorables/gitlab/config"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgMonitorable "github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api"
+	gitlabDelivery "github.com/Vaelatern/monitoror/monitorables/gitlab/api/delivery/http"
+	gitlabModels "github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
+	gitlabRepository "github.com/Vaelatern/monitoror/monitorables/gitlab/api/repository"
+	gitlabUsecase "github.com/Vaelatern/monitoror/monitorables/gitlab/api/usecase"
+	gitlabConfig "github.com/Vaelatern/monitoror/monitorables/gitlab/config"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

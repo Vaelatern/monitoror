@@ -3,7 +3,7 @@
 package api
 
 import (
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
 )
 
 type (

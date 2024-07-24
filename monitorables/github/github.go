@@ -5,18 +5,18 @@ package github
 import (
 	"time"
 
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgMonitorable "github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/github/api"
-	githubDelivery "github.com/monitoror/monitoror/monitorables/github/api/delivery/http"
-	githubModels "github.com/monitoror/monitoror/monitorables/github/api/models"
-	githubRepository "github.com/monitoror/monitoror/monitorables/github/api/repository"
-	githubUsecase "github.com/monitoror/monitoror/monitorables/github/api/usecase"
-	githubConfig "github.com/monitoror/monitoror/monitorables/github/config"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/service/options"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgMonitorable "github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/github/api"
+	githubDelivery "github.com/Vaelatern/monitoror/monitorables/github/api/delivery/http"
+	githubModels "github.com/Vaelatern/monitoror/monitorables/github/api/models"
+	githubRepository "github.com/Vaelatern/monitoror/monitorables/github/api/repository"
+	githubUsecase "github.com/Vaelatern/monitoror/monitorables/github/api/usecase"
+	githubConfig "github.com/Vaelatern/monitoror/monitorables/github/config"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/service/options"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

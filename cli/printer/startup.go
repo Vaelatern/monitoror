@@ -6,12 +6,12 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/monitoror/monitoror/cli"
-	"github.com/monitoror/monitoror/cli/version"
-	coreConfig "github.com/monitoror/monitoror/config"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/pkg/system"
-	"github.com/monitoror/monitoror/pkg/templates"
+	"github.com/Vaelatern/monitoror/cli"
+	"github.com/Vaelatern/monitoror/cli/version"
+	coreConfig "github.com/Vaelatern/monitoror/config"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/pkg/system"
+	"github.com/Vaelatern/monitoror/pkg/templates"
 )
 
 var startupTemplate = `

@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/jenkins/api"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/models"
-	"github.com/monitoror/monitoror/pkg/git"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
+	"github.com/Vaelatern/monitoror/pkg/git"
 
 	. "github.com/AlekSi/pointer"
 	"github.com/stretchr/testify/assert"

@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	pingdom "github.com/jsdidierlaurent/go-pingdom/pingdom"
+	pingdom "github.com/russellcardullo/go-pingdom/pingdom"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	models "github.com/monitoror/monitoror/models"
+	models "github.com/Vaelatern/monitoror/models"
 	mock "github.com/stretchr/testify/mock"
 )
 

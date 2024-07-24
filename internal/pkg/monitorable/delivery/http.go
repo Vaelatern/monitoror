@@ -4,11 +4,11 @@ import (
 	"github.com/fatih/structs"
 	"github.com/labstack/echo/v4"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
-	"github.com/monitoror/monitoror/internal/pkg/validator"
-	"github.com/monitoror/monitoror/internal/pkg/validator/validate"
-	coreModels "github.com/monitoror/monitoror/models"
-	pkgStructs "github.com/monitoror/monitoror/pkg/structs"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator/validate"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	pkgStructs "github.com/Vaelatern/monitoror/pkg/structs"
 )
 
 func BindAndValidateParams(ctx echo.Context, p params.Validator) error {

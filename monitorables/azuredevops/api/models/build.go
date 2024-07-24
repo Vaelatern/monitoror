@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/models"
 )
 
 type (

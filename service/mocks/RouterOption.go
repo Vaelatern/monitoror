@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	options "github.com/monitoror/monitoror/service/options"
+	options "github.com/Vaelatern/monitoror/service/options"
 	mock "github.com/stretchr/testify/mock"
 )
 

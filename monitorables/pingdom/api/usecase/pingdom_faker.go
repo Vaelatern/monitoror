@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	uiConfigModels "github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/faker"
-	"github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api"
-	pingdomModels "github.com/monitoror/monitoror/monitorables/pingdom/api/models"
-	"github.com/monitoror/monitoror/pkg/nonempty"
+	uiConfigModels "github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/faker"
+	"github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api"
+	pingdomModels "github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
+	"github.com/Vaelatern/monitoror/pkg/nonempty"
 )
 
 type (

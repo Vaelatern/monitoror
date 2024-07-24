@@ -1,7 +1,7 @@
 package params
 
 import (
-	"github.com/monitoror/monitoror/internal/pkg/validator"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
 )
 
 type (

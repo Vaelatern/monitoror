@@ -5,7 +5,7 @@ import (
 
 	"github.com/AlekSi/pointer"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/test"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/test"
 )
 
 func TestCheckParams_Validate(t *testing.T) {

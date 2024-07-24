@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/monitoror/monitoror/monitorables/github/api"
-	"github.com/monitoror/monitoror/monitorables/github/api/models"
-	"github.com/monitoror/monitoror/monitorables/github/config"
-	"github.com/monitoror/monitoror/pkg/gogithub"
-	"github.com/monitoror/monitoror/pkg/gravatar"
+	"github.com/Vaelatern/monitoror/monitorables/github/api"
+	"github.com/Vaelatern/monitoror/monitorables/github/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/github/config"
+	"github.com/Vaelatern/monitoror/pkg/gogithub"
+	"github.com/Vaelatern/monitoror/pkg/gravatar"
 
 	githubApi "github.com/google/go-github/github"
 	"github.com/sourcegraph/httpcache"

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/mocks"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/mocks"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api/models"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"

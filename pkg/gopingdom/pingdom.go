@@ -2,7 +2,7 @@
 
 package gopingdom
 
-import "github.com/jsdidierlaurent/go-pingdom/pingdom"
+import "github.com/russellcardullo/go-pingdom/pingdom"
 
 type PingdomCheckAPI interface {
 	List(params ...map[string]string) ([]pingdom.CheckResponse, error)

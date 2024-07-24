@@ -1,9 +1,9 @@
 package commands
 
 import (
-	"github.com/monitoror/monitoror/cli"
-	initCmd "github.com/monitoror/monitoror/cli/commands/init"
-	"github.com/monitoror/monitoror/cli/commands/version"
+	"github.com/Vaelatern/monitoror/cli"
+	initCmd "github.com/Vaelatern/monitoror/cli/commands/init"
+	"github.com/Vaelatern/monitoror/cli/commands/version"
 )
 
 func AddCommands(cli *cli.MonitororCli) {

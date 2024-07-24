@@ -3,7 +3,7 @@
 package api
 
 import (
-	"github.com/monitoror/monitoror/monitorables/travisci/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/travisci/api/models"
 )
 
 type (

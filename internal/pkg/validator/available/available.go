@@ -7,8 +7,8 @@ import (
 
 	"github.com/fatih/structs"
 
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgValidator "github.com/monitoror/monitoror/internal/pkg/validator"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgValidator "github.com/Vaelatern/monitoror/internal/pkg/validator"
 )
 
 // -------------------------------------------------------

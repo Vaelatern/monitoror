@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/models"
 	"github.com/stretchr/testify/assert"
 )
 

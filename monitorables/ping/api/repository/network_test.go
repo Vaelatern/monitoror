@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	pingConfig "github.com/monitoror/monitoror/monitorables/ping/config"
-	"github.com/monitoror/monitoror/pkg/system"
+	pingConfig "github.com/Vaelatern/monitoror/monitorables/ping/config"
+	"github.com/Vaelatern/monitoror/pkg/system"
 )
 
 // /!\ this is an integration test /!\

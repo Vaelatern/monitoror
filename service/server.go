@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/monitoror/monitoror/cli/debug"
-	"github.com/monitoror/monitoror/service/handlers"
-	"github.com/monitoror/monitoror/service/middlewares"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/cli/debug"
+	"github.com/Vaelatern/monitoror/service/handlers"
+	"github.com/Vaelatern/monitoror/service/middlewares"
+	"github.com/Vaelatern/monitoror/store"
 
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"

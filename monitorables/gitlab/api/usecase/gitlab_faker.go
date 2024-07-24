@@ -9,13 +9,13 @@ import (
 	"github.com/AlekSi/pointer"
 	cmap "github.com/orcaman/concurrent-map"
 
-	uiConfigModels "github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/faker"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api/models"
-	"github.com/monitoror/monitoror/pkg/git"
-	"github.com/monitoror/monitoror/pkg/nonempty"
+	uiConfigModels "github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/faker"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
+	"github.com/Vaelatern/monitoror/pkg/git"
+	"github.com/Vaelatern/monitoror/pkg/nonempty"
 )
 
 type (

@@ -8,8 +8,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/monitoror/monitoror/api/config"
-	"github.com/monitoror/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config"
+	"github.com/Vaelatern/monitoror/api/config/models"
 )
 
 type ConfigDelivery struct {

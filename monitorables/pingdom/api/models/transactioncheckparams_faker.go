@@ -3,8 +3,8 @@
 package models
 
 import (
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
-	coreModels "github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
+	coreModels "github.com/Vaelatern/monitoror/models"
 )
 
 type (

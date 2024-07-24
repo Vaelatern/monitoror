@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/monitoror/monitoror/api/config/mocks"
-	"github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/api/config/versions"
-	coreConfig "github.com/monitoror/monitoror/config"
+	"github.com/Vaelatern/monitoror/api/config/mocks"
+	"github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	coreConfig "github.com/Vaelatern/monitoror/config"
 
 	"github.com/stretchr/testify/assert"
 	. "github.com/stretchr/testify/mock"

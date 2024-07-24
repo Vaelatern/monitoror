@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	. "github.com/stretchr/testify/mock"
 
-	"github.com/monitoror/monitoror/api/config/mocks"
-	"github.com/monitoror/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config/mocks"
+	"github.com/Vaelatern/monitoror/api/config/models"
 )
 
 func initEcho() (ctx echo.Context, res *httptest.ResponseRecorder) {

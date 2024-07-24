@@ -3,7 +3,7 @@ package commands
 import (
 	"testing"
 
-	"github.com/monitoror/monitoror/cli"
+	"github.com/Vaelatern/monitoror/cli"
 
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"

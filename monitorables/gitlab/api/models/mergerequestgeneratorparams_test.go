@@ -3,7 +3,7 @@ package models
 import (
 	"testing"
 
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/test"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/test"
 
 	"github.com/AlekSi/pointer"
 )

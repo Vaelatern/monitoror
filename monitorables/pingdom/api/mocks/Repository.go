@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	models "github.com/monitoror/monitoror/monitorables/pingdom/api/models"
+	models "github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
 	mock "github.com/stretchr/testify/mock"
 )
 

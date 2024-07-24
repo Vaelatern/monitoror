@@ -3,10 +3,10 @@
 package api
 
 import (
-	"github.com/monitoror/monitoror/monitorables/azuredevops/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/azuredevops/api/models"
 
-	"github.com/jsdidierlaurent/azure-devops-go-api/azuredevops/build"
-	"github.com/jsdidierlaurent/azure-devops-go-api/azuredevops/release"
+	"github.com/microsoft/azure-devops-go-api/azuredevops/build"
+	"github.com/microsoft/azure-devops-go-api/azuredevops/release"
 )
 
 type (

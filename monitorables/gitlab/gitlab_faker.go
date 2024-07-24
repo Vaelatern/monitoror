@@ -3,15 +3,15 @@
 package gitlab
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/gitlab/api"
-	gitlabDelivery "github.com/monitoror/monitoror/monitorables/gitlab/api/delivery/http"
-	gitlabModels "github.com/monitoror/monitoror/monitorables/gitlab/api/models"
-	gitlabUsecase "github.com/monitoror/monitoror/monitorables/gitlab/api/usecase"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/gitlab/api"
+	gitlabDelivery "github.com/Vaelatern/monitoror/monitorables/gitlab/api/delivery/http"
+	gitlabModels "github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
+	gitlabUsecase "github.com/Vaelatern/monitoror/monitorables/gitlab/api/usecase"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

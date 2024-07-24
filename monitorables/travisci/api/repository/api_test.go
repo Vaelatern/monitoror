@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/travisci/api/models"
-	"github.com/monitoror/monitoror/monitorables/travisci/config"
-	pkgTravis "github.com/monitoror/monitoror/pkg/gotravis"
-	"github.com/monitoror/monitoror/pkg/gotravis/mocks"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/travisci/api/models"
+	"github.com/Vaelatern/monitoror/monitorables/travisci/config"
+	pkgTravis "github.com/Vaelatern/monitoror/pkg/gotravis"
+	"github.com/Vaelatern/monitoror/pkg/gotravis/mocks"
 
 	. "github.com/AlekSi/pointer"
 	"github.com/shuheiktgw/go-travis"

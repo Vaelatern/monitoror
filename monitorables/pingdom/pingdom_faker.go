@@ -3,15 +3,15 @@
 package pingdom
 
 import (
-	"github.com/monitoror/monitoror/api/config/versions"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable"
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/pingdom/api"
-	pingdomDelivery "github.com/monitoror/monitoror/monitorables/pingdom/api/delivery/http"
-	pingdomModels "github.com/monitoror/monitoror/monitorables/pingdom/api/models"
-	pingdomUsecase "github.com/monitoror/monitoror/monitorables/pingdom/api/usecase"
-	"github.com/monitoror/monitoror/registry"
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/pingdom/api"
+	pingdomDelivery "github.com/Vaelatern/monitoror/monitorables/pingdom/api/delivery/http"
+	pingdomModels "github.com/Vaelatern/monitoror/monitorables/pingdom/api/models"
+	pingdomUsecase "github.com/Vaelatern/monitoror/monitorables/pingdom/api/usecase"
+	"github.com/Vaelatern/monitoror/registry"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 type Monitorable struct {

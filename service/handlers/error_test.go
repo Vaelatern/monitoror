@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/monitorables/jenkins/api"
+	"github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/monitorables/jenkins/api"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 	"github.com/jsdidierlaurent/echo-middleware/cache/mocks"

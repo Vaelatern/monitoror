@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
+	coreModels "github.com/Vaelatern/monitoror/models"
 )
 
 type Pipeline struct {

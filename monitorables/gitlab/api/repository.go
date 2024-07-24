@@ -2,7 +2,7 @@
 
 package api
 
-import "github.com/monitoror/monitoror/monitorables/gitlab/api/models"
+import "github.com/Vaelatern/monitoror/monitorables/gitlab/api/models"
 
 type (
 	Repository interface {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/monitoror/monitoror/store"
+	"github.com/Vaelatern/monitoror/store"
 )
 
 func TestNewMonitororCli(t *testing.T) {

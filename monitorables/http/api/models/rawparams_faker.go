@@ -5,8 +5,8 @@ package models
 import (
 	"regexp"
 
-	"github.com/monitoror/monitoror/internal/pkg/validator"
-	coreModels "github.com/monitoror/monitoror/models"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
+	coreModels "github.com/Vaelatern/monitoror/models"
 )
 
 type (

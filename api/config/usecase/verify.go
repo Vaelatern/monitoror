@@ -8,16 +8,16 @@ import (
 
 	"github.com/fatih/structs"
 
-	"github.com/monitoror/monitoror/api/config/models"
-	"github.com/monitoror/monitoror/api/config/versions"
-	pkgConfig "github.com/monitoror/monitoror/internal/pkg/api/config"
-	"github.com/monitoror/monitoror/internal/pkg/monitorable/params"
-	"github.com/monitoror/monitoror/internal/pkg/validator"
-	"github.com/monitoror/monitoror/internal/pkg/validator/available"
-	"github.com/monitoror/monitoror/internal/pkg/validator/validate"
-	coreModels "github.com/monitoror/monitoror/models"
-	pkgStructs "github.com/monitoror/monitoror/pkg/structs"
-	"github.com/monitoror/monitoror/registry"
+	"github.com/Vaelatern/monitoror/api/config/models"
+	"github.com/Vaelatern/monitoror/api/config/versions"
+	pkgConfig "github.com/Vaelatern/monitoror/internal/pkg/api/config"
+	"github.com/Vaelatern/monitoror/internal/pkg/monitorable/params"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator/available"
+	"github.com/Vaelatern/monitoror/internal/pkg/validator/validate"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	pkgStructs "github.com/Vaelatern/monitoror/pkg/structs"
+	"github.com/Vaelatern/monitoror/registry"
 )
 
 func (cu *configUsecase) Verify(configBag *models.ConfigBag) {

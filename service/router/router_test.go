@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	coreModels "github.com/monitoror/monitoror/models"
-	"github.com/monitoror/monitoror/service/middlewares"
-	"github.com/monitoror/monitoror/service/options"
+	coreModels "github.com/Vaelatern/monitoror/models"
+	"github.com/Vaelatern/monitoror/service/middlewares"
+	"github.com/Vaelatern/monitoror/service/options"
 
 	"github.com/jsdidierlaurent/echo-middleware/cache"
 	"github.com/labstack/echo/v4"
